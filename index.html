@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keyboard Piano</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="px-4 py-0 my-5 text-center"> <img class="d-block mx-auto mb-4" src="images/girl-in-a-piano.png" alt=""
+      width="120">
+    <h1 class="display-5 fw-bold">🎹 Virtual piano</h1>
+    <div class="col-lg-6 mx-auto">
+
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button"
+          class="btn btn-outline-secondary btn-lg px-4 gap-3">Mark</button> <button type="button"
+          class="btn btn-outline-secondary btn-lg px-4 hide-names">Hide note names</button> </div>
+    </div>
+  </div>
+  <div class="piano">
+    <button class="key" id="c"><span class="note">C</span></button>
+    <button class="key" id="d"><span class="note">D</span></button>
+    <button class="key" id="e"><span class="note">E</span></button>
+    <button class="key" id="f"><span class="note">F</span></button>
+    <button class="key" id="g"><span class="note">G</span></button>
+    <button class="key" id="a"><span class="note">A</span></button>
+    <button class="key" id="b"><span class="note">B</span></button>
+  </div>
+
+
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center"> <span class="mb-3 mb-md-0 text-body-secondary">Made with ❤️ by
+          Matina. For educational purposes only.</span> </div>
+
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
